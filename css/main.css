@@ -278,6 +278,7 @@ textarea {
   border-radius: 10px;
   text-align: center;
   padding: 40px;
+  background-color: whitesmoke;
 }
 
 .iframe-container{
