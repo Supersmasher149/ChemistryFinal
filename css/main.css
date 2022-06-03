@@ -264,6 +264,8 @@ textarea {
 .container {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .grid-container {
@@ -271,6 +273,7 @@ textarea {
   grid-template-columns: auto auto;
   grid-gap: 16px;
   padding: 10px 50px;
+  margin: 0 auto;
 }
 
 .grid-item {
@@ -298,6 +301,7 @@ textarea {
 .wrapper {
   width: 100vh;
   margin: auto;
+  margin-bottom: 500px;
 }
 * {
   font-family: 'Nunito', sans-serif;
@@ -305,4 +309,17 @@ textarea {
 
 h1 {
   font-size: 3.65rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  float: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
